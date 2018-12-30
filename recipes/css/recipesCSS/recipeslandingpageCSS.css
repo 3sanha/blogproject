@@ -1,0 +1,20 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body{
+      background-color: #eaf6f6;
+}
+.card-deck{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.footer-copyright{
+  background: #f76b8a;
+}
+.footer-container{
+  background: #fbb4c3;
+
+}

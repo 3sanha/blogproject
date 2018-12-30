@@ -1,0 +1,28 @@
+body{
+      background-color: #eaf6f6;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section01{
+  margin: 3em;
+}
+.section02{
+  background-color: #EAF6F6;
+}
+
+.tab-content, .tab-pane{
+  margin: 3em;
+  padding: auto .012em auto auto;
+}
+.footer-copyright{
+  background: #f76b8a;
+}
+.footer-container{
+  background: #fbb4c3;
+
+}
