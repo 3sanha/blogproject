@@ -27,3 +27,52 @@ object-fit: fill;
 .footer-container{
   background: #fbb4c3;
 }
+body {
+  background: #eaf6f6;
+}
+.header {
+  width: 100%;
+  height: auto;
+}
+/* Add a card effect for articles */
+.container {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+.title  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -400%);
+  font-size: 30px;
+  color: white;
+}
+
+.content {
+  background-color: #EAF6F6;
+  margin: 20px;
+}
+
+.icon{
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.author {
+  padding-top: 10px;
+  max-height: 10px;
+  text-align: center;
+  padding-bottom: 10px
+}
+/* Footer */
+.footer{
+  display: inline-block;
+}
+.footer-copyright{
+  background: #f76b8a;
+}
+.footer-container{
+  background: #fbb4c3;
+}
