@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<!-- Create the <!DOCTYPE html>
-<html lang="en" dir="ltr">
 <!-- Create the navigation bar based off of GitHub-->
 
 <head>
@@ -60,22 +58,15 @@
   </nav>
 
   <!--Blog Content-->
-
-  <div class="content">
-
-    <!--Image-->
-    <div class="header">
-      <img src="f.jpg" alt="image of croissant">
-      <div class="title"> Insert Title Here</div>
+  <div class="overlay">
+    <div class="header"></div> 
+    <div class="title"> Insert Title Here</div>
     </div>
-
-    <!--Author and Date of Content-->
-    <p class="author">
-      <img src="sess.png" class="icon">
-      <h6>Insert Name MM DD, YYY </h6>
-    </p><br>
-
+    <div class="author">
+    <p><img src="sess.png" class="icon">Insert Name MM DD, YYYY</p>
+  </div>
     <!--Post-->
+    <div class="content">
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
       has been the industry's standard dummy text ever since the 1500s, when an unknown printer
       took a galley of type and scrambled it to make a type specimen book. It has survived not
@@ -95,17 +86,30 @@
     </p>
 
     <!--Social Media Buttons-->
-    <div class="social">
-      <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-        <a class="a2a_button_facebook"></a>
-        <a class="a2a_button_sms"></a>
-        <a class="a2a_button_email"></a>
-      </div>
+    <p>
+<div class="social">
+    <h6><strong>Share Me</strong></h6>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="www.3sanha.com" data-a2a-title="San Ha">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_google_plus"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+    </p>
     </div>
-
+    <!--Feedback with Submission-->
+<form class="" action="mailto:3hangaryasians@gmail.com" method="post">
+  <div class="social">
+    <label for="msg">Message:</label><br>
+    <textarea name="user_message" rows="8" cols="60"></textarea>
+  <br>
+  <div class="button">
+  <button type="submit">Send Your Message</button>
   </div>
-
+</form>
+  </div>
+</div>
 
   <!--Footer-->
   <footer class="page-footer font-small blue text-center">
@@ -149,154 +153,6 @@
 
   </footer>
   <!-- Footer -->
-
-
-</body>
-
-</html>
- bar based off of GitHub-->
-<head>
-  <meta charset="utf-8">
-  <title>Blog Post Title Here</title>
-  <link rel="stylesheet" href="blogtemplatestyles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-</head>
-<!--Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script async src="https://static.addtoany.com/menu/page.js"></script>
-<body>
-  <!-- Navigation Bar-->
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #66bfbf">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <a class="navbar-brand" href="#">3 H.A.</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Food Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Recipies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Videos</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Blogs
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
-      </nav>
-
-<!--Blog Content-->
-
-        <div class="content">
-
-          <!--Image-->
-          <div class="container">
-           <img src="f.jpg" alt="image of croissant">
-           </div>
-
-           <!--Author and Date of Content-->
-           <p class="author">
-           <i class="fa fa-user fa-2x"></i> <h6>Insert Name  MM DD, YYY </h6>
-           </p>
-
-           <!--Post-->
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-            took a galley of type and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-            including versions of Lorem Ipsum.
-          </p>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-            took a galley of type and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-            including versions of Lorem Ipsum.
-          </p>
-
-          <!--Social Media Buttons-->
-          <div class="social">
-            <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-            <a class="a2a_button_facebook"></a>
-            <a class="a2a_button_sms"></a>
-            <a class="a2a_button_email"></a>
-          </div>
-          </div>
-
-          </div>
-
-
-<!--Footer-->
-    <footer class="page-footer font-small blue text-center">
-      <!-- Footer Elements -->
-    <div class="footer-container">
-
-      <!-- Grid row-->
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-md-12 py-5">
-          <div class="mb-5 flex-center">
-
-            <!-- Facebook -->
-            <a class="fb-ic">
-              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <!--Instagram-->
-            <a class="ins-ic">
-              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-            </a>
-            <!--Youtube-->
-            <a class="you-ic">
-              <i class="fab fa-youtube fa-lg white-text fa-2x"> </i>
-            </a>
-          </div>
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <!-- Grid row-->
-
-    </div>
-    <!-- Footer Elements -->
-
-      <!-- Copyright -->
-      <div class="footer-copyright py-3">© 2019 Copyright:
-        <a href="#"> 3 H.A.</a>
-      </div>
-      <!-- Copyright -->
-
-  </footer>
-<!-- Footer -->
 
 
 </body>
